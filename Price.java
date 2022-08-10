@@ -1,10 +1,9 @@
 public abstract class Price {
     public abstract int getPriceCode();
- 
     public abstract double getCharge(int daysRented);
  
     public int getFrequentRenterPoints(int daysRented) {
-    //Adicionar o trecho de código extraído.
+    //Adicionar o trecho de código extraído.    
        int frequentRenterPoints = 0;
  
        // add frequent renter points
@@ -16,5 +15,7 @@ public abstract class Price {
  
        return frequentRenterPoints;
  
+       return 1;
     }
-  
+ 
+  } 
