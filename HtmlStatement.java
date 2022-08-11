@@ -5,7 +5,7 @@ public class HtmlStatement extends Statement {
         Enumeration rentals = aCustomer.getRentals();
         String result = "<H1>Rentals for <EM>" + aCustomer.getName() +
         "</EM></H1><P>\n";
-        String result = "Rental Record for " + aCustomer.getName()+" ";
+        result = "Rental Record for " + aCustomer.getName()+" ";
         while (rentals.hasMoreElements()) {
            Rental each = (Rental) rentals.nextElement();
            //show figures for each rental
@@ -24,3 +24,4 @@ public class HtmlStatement extends Statement {
         result += "You earned " + String.valueOf(aCustomer.getTotalFrequentRenterPoints()) + " frequent renter points";
         return result;
      }
+}

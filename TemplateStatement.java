@@ -1,10 +1,8 @@
 import java.util.Enumeration;
 
-public class TextStatement extends Statement{
+public class TemplateStatement {  
 
-public class TemplateStatment {  
-
-	public TemplateStatment() {
+	public TemplateStatement() {
 
 	}
 
@@ -20,7 +18,6 @@ public class TemplateStatment {
         result += "Amount owed is " + String.valueOf(aCustomer.getTotalCharge()) + " ";
         result += "You earned " + String.valueOf(aCustomer.getTotalFrequentRenterPoints()) + " frequent renter points";
         return result;
-     }
     }
 
 }
