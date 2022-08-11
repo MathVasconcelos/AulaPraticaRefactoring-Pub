@@ -15,7 +15,7 @@ public abstract class Price {
  
        return frequentRenterPoints;
  
-       return 1;
+       
     }
  
   } 
